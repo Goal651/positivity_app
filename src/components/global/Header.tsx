@@ -20,7 +20,7 @@ export default function Header() {
             <div>
                 <button
                     style={{ backgroundColor: '#C81F00' }}
-                    className="btn text-white rounded-4xl border-0 px-10 py-7">
+                    className="btn text-white rounded-4xl border-0 px-10 py-7 text-xl">
                     Get started
                 </button>
             </div>
