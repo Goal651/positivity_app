@@ -1,6 +1,6 @@
 export default function Tools() {
     return (
-        <div className="flex mt-40 items-center justify-center">
+        <div className="flex mx-15 mt-40 items-center justify-center">
             <div className="flex flex-col gap-y-10">
                 <div className="text-5xl font-bold">
                     Practical Tools for a
@@ -12,13 +12,56 @@ export default function Tools() {
                     find everything you need to bring joy and resilience into your life.
                     Start building your positivity toolkit today for small steps toward big transformations!
                 </div >
-                <div className="flex flex-col justify-start items-start">
-                    <ul className="steps steps-vertical">
-                        <li className="step step-warning ">Register</li>
-                        <li className="step step-warning  ">Choose plan</li>
-                        <li className="step step-warning  ">Purchase</li>
-                        <li className="step step-warning  ">Receive Product</li>
-                    </ul>
+                <div className="flex flex-col items-start">
+                    <div className="flex items-start">
+                        <div className="flex flex-col items-center">
+                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">1</div>
+                            <div className="w-1 h-10 bg-red-600"></div>
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="font-bold text-lg">Meditation Resources</h3>
+                            <p className="text-sm text-gray-700">Calm, Headspace</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start">
+                        <div className="flex flex-col items-center">
+                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">2</div>
+                            <div className="w-1 h-10 bg-red-600"></div>
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="font-bold text-lg">Journaling Prompts</h3>
+                            <p className="text-sm text-gray-700">Writing down things you’re grateful for using their templates</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start">
+                        <div className="flex flex-col items-center">
+                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">3</div>
+                            <div className="w-1 h-10 bg-red-600"></div>
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="font-bold text-lg">Affirmations Generator</h3>
+                            <p className="text-sm text-gray-700">An interactive tool where users can get a random affirmation</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start">
+                        <div className="flex flex-col items-center">
+                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">4</div>
+                            <div className="w-1 h-10 bg-red-600"></div>
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="font-bold text-lg">Books and Articles</h3>
+                            <p className="text-sm text-gray-700">Curate a list of books, eBooks, or articles on positivity and mindfulness</p>
+                        </div>
+                    </div>
+                    <div className="flex items-start">
+                        <div className="flex flex-col items-center">
+                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">5</div>
+                        </div>
+                        <div className="ml-4">
+                            <h3 className="font-bold text-lg">DIY Resources</h3>
+                            <p className="text-sm text-gray-700">A Mood Tracker template, Coloring Pages for stress relief</p>
+                        </div>
+                    </div>
                 </div>
                 <div className="flex gap-x-32">
                     <button
