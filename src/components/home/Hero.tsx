@@ -10,7 +10,7 @@ export default function Hero() {
                     </button>
                 </div>
             </div>
-            <div className="relative flex border gap-x-10 justify-between px-32 py-14 bg-white mx-32 z-10 bottom-40 rounded-2xl"
+            <div className="relative flex border-3 gap-x-10 justify-between px-32 py-14 bg-white mx-32 z-10 bottom-40 rounded-2xl"
                 style={{ borderColor: '#C81F0070' }}>
                 <div className="w-80">
                     <div style={{ color: '#CD1F01' }} className="text-5xl font-bold">55+</div>
@@ -18,13 +18,13 @@ export default function Hero() {
                         Our technology helps companies explore and navigate the world in new ways.
                     </div>
                 </div>
-                <div className="border-l-2 border-black" />
-                <div>
+                <div className="border-l-3 border-black" />
+                <div className="mx-10">
                     <img
                         src="/diversity.png"
                         alt="" />
                 </div>
-                <div className="border-l-2 border-black" />
+                <div className="border-l-3 border-black" />
                 <div className="w-80">
                     <div style={{ color: '#CD1F01' }} className="text-5xl font-bold">Dive-</div>
                     <div className="text-black text-xl">

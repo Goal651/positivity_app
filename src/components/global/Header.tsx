@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 export default function Header() {
 
     return (
@@ -11,11 +11,11 @@ export default function Header() {
                 />
             </div>
             <div className="flex gap-x-20 *:hover:cursor-pointer">
-                <div>Home</div>
-                <div>About us</div>
-                <div>Services</div>
-                <div>Projects</div>
-                <div>Contact</div>
+                <Link to={'/'}>Home</Link>
+                <Link to={'/aboutUs'}>About us</Link>
+                <Link to={'/'}>Services</Link>
+                <Link to={'/'}>Projects</Link>
+                <Link to={'/'}>Contact</Link>
             </div>
             <div>
                 <button
