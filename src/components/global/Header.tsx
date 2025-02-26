@@ -13,7 +13,7 @@ export default function Header() {
             <div className="flex gap-x-20 *:hover:cursor-pointer">
                 <Link to={'/'}>Home</Link>
                 <Link to={'/aboutUs'}>About us</Link>
-                <Link to={'/'}>Services</Link>
+                <Link to={'/services'}>Services</Link>
                 <Link to={'/'}>Projects</Link>
                 <Link to={'/'}>Contact</Link>
             </div>
