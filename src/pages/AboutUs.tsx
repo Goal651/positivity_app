@@ -9,7 +9,7 @@ import Header from "../components/global/Header";
 export default function AboutUs() {
     return (
         <div>
-            <Header />
+            <Header pageNumber={2}/>
             <Hero />
             <News />
             <CoreValues />

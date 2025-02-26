@@ -13,7 +13,7 @@ export default function Home() {
 
     return (
         <div>
-            <Header />
+            <Header pageNumber={1}/>
             <Hero />
             <Inspiring />
             <Services />

@@ -1,18 +1,18 @@
 export default function Inspiring() {
 
     return (
-        <div className="relative bottom-20 flex flex-col gap-y-32 bg-red-100">
+        <div className="relative bottom-20 flex flex-col gap-y-32 bg-gradient-to-b from-red-50  to-red-100">
             <div className="text-4xl text-black font-bold flex items-center justify-center ">
                 <div className="w-5xl">
                     Inspiring change with motivational keynotes workshops & seminars for ...
                 </div>
             </div>
 
-            <div className="flex mx-20 gap-x-20 items-center justify-center">
-                <div className="flex flex-col gap-y-5 justify-center">
+            <div className="flex mx-20 gap-x-20 items-center justify-center pb-10">
+                <div className="flex flex-col gap-y-5 justify-center ">
                     <div
                         style={{ borderColor: '#CD5F4A' }}
-                        className="border-4 w-72 h-[400px] rounded-xl relative flex"
+                        className="border-4 w-72 h-[400px] rounded-xl relative flex bg-white"
                     >
                         <img
                             src="/inspiringImg1.png"
@@ -40,15 +40,16 @@ export default function Inspiring() {
                 <div className="flex flex-col gap-y-5 justify-center">
                     <div
                         style={{ borderColor: '#CD5F4A' }}
-                        className="border-4 w-72 h-[400px] rounded-xl relative p-5 overflow-visible flex"
+                        className="border-4 w-72 h-[400px] rounded-xl relative p-5 overflow-visible flex bg-white"
                     >
                         <img
                             src="/inspiringImg2.png"
                             alt=""
-                            className="object-cover w-96  z-10 mb-10" />
-                        <div className="absolute top-52 left-0 overflow-visible w-full">
+                            className="object-cover w-96  z-10 mb-10"
+                        />
+                        <div className="absolute top-52 left-0 overflow-visible w-80">
                             <img
-                                className=" w-3xl"
+                                className=" w-full"
                                 src="/inspiringCover2.png"
                                 alt="" />
                         </div>
@@ -70,7 +71,7 @@ export default function Inspiring() {
                 <div className="flex flex-col gap-y-5 justify-center">
                     <div
                         style={{ borderColor: '#CD5F4A' }}
-                        className="border-4 w-72 h-[400px] rounded-xl relative  flex"
+                        className="border-4 w-72 h-[400px] rounded-xl relative  flex bg-white"
                     >
                         <img
                             src="/inspiringImg3.png"
@@ -98,18 +99,20 @@ export default function Inspiring() {
                 <div className="flex flex-col gap-y-5 justify-center">
                     <div
                         style={{ borderColor: '#CD5F4A' }}
-                        className="border-4 w-72 h-[400px] rounded-xl relative  flex items-center justify-center"
+                        className="border-4 w-72 h-[400px] rounded-xl relative  flex items-center justify-center bg-white"
                     >
-                        <div className="z-5">
+                        <div className="z-5 w-70">
                             <img
                                 src="/inspiringImg4.png"
                                 alt=""
-                                className="object-cover w-72   " />
+                                className="object-cover w-full  " />
                         </div>
-                        <img
-                            className="absolute top-10 left-0 w-full"
-                            src="/inspiringCover4.png"
-                            alt="" />
+                        <div className="absolute top-0 left-0 w-80">
+                            <img
+                                className=" w-full"
+                                src="/inspiringCover4.png"
+                                alt="" />
+                        </div>
                     </div>
                     <div className="text-black font-semibold w-52">
                         Choose your color gradient and let the positive vibes shine through!

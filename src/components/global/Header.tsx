@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-export default function Header() {
+export default function Header({ pageNumber }: { pageNumber: number }) {
 
     return (
-        <div className="flex bg-white text-black p-5 justify-between px-20 text-xl font-bold items-center">
+        <div className="flex bg-white text-black p-5 justify-between px-20 text-xl  items-center">
             <div>
                 <img
                     src="/logo.png"
@@ -11,11 +11,11 @@ export default function Header() {
                 />
             </div>
             <div className="flex gap-x-20 *:hover:cursor-pointer">
-                <Link to={'/'}>Home</Link>
-                <Link to={'/aboutUs'}>About us</Link>
-                <Link to={'/services'}>Services</Link>
-                <Link to={'/'}>Projects</Link>
-                <Link to={'/'}>Contact</Link>
+                <Link className={`${pageNumber === 1 && ('font-bold')} link link-hover`} to={'/'}>Home</Link>
+                <Link className={`${pageNumber === 2 && ('font-bold')} link link-hover`} to={'/aboutUs'}>About us</Link>
+                <Link className={`${pageNumber === 3 && ('font-bold')} link link-hover`} to={'/services'}>Services</Link>
+                <Link className={`${pageNumber === 4 && ('font-bold')} link link-hover`} to={'/projects'}>Projects</Link>
+                <Link className={`${pageNumber === 5 && ('font-bold')} link link-hover`} to={'/'}>Contact</Link>
             </div>
             <div>
                 <button

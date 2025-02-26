@@ -1,3 +1,31 @@
-.test{
-    color: rgba(255, 255, 255, 0.187);
+.custom-shadow-xs {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-sm {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-lg {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-xl {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-2xl {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-3xl {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-4xl {
+    box-shadow: 0 0 10 20 gray;
+}
+
+.custom-shadow-5xl {
+    box-shadow: 0 0 10 20 gray;
 }

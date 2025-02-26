@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <div>
+        <div className="bg-red-100">
             <div className="bg-cover bg-center bg-no-repeat h-[650px] flex items-center justify-center"
                 style={{ backgroundImage: 'url("/land-img.png")' }}
             >
