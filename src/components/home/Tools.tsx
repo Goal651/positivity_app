@@ -1,6 +1,6 @@
 export default function Tools() {
     return (
-        <div className="flex mx-15 mt-40 items-center justify-center">
+        <div className="flex px-15 mt-40 items-center justify-center pb-20 bg-gradient-to-b from-white via-white to-red-100">
             <div className="flex flex-col gap-y-10">
                 <div className="text-5xl font-bold">
                     Practical Tools for a
@@ -15,8 +15,8 @@ export default function Tools() {
                 <div className="flex flex-col items-start">
                     <div className="flex items-start">
                         <div className="flex flex-col items-center">
-                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">1</div>
-                            <div className="w-1 h-10 bg-red-600"></div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-10 h-10 rounded-full  text-white flex items-center justify-center font-bold">1</div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-1 h-10 "/>
                         </div>
                         <div className="ml-4">
                             <h3 className="font-bold text-lg">Meditation Resources</h3>
@@ -25,8 +25,8 @@ export default function Tools() {
                     </div>
                     <div className="flex items-start">
                         <div className="flex flex-col items-center">
-                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">2</div>
-                            <div className="w-1 h-10 bg-red-600"></div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-10 h-10 rounded-full  text-white flex items-center justify-center font-bold">2</div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-1 h-10 "/>
                         </div>
                         <div className="ml-4">
                             <h3 className="font-bold text-lg">Journaling Prompts</h3>
@@ -35,8 +35,8 @@ export default function Tools() {
                     </div>
                     <div className="flex items-start">
                         <div className="flex flex-col items-center">
-                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">3</div>
-                            <div className="w-1 h-10 bg-red-600"></div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-10 h-10 rounded-full  text-white flex items-center justify-center font-bold">3</div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-1 h-10 "/>
                         </div>
                         <div className="ml-4">
                             <h3 className="font-bold text-lg">Affirmations Generator</h3>
@@ -45,8 +45,8 @@ export default function Tools() {
                     </div>
                     <div className="flex items-start">
                         <div className="flex flex-col items-center">
-                            <div className="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center font-bold">4</div>
-                            <div className="w-1 h-10 bg-red-600"></div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-10 h-10 rounded-full  text-white flex items-center justify-center font-bold">4</div>
+                            <div style={{backgroundColor:'#CD1F01'}} className="w-1 h-10 "/>
                         </div>
                         <div className="ml-4">
                             <h3 className="font-bold text-lg">Books and Articles</h3>

@@ -1,7 +1,7 @@
 export default function Inspiring() {
 
     return (
-        <div className="relative bottom-20 flex flex-col gap-y-32 bg-gradient-to-b from-red-50  to-red-100">
+        <div className="relative bottom-20 flex flex-col gap-y-32 bg-gradient-to-b from-white  to-red-50">
             <div className="text-4xl text-black font-bold flex items-center justify-center ">
                 <div className="w-5xl">
                     Inspiring change with motivational keynotes workshops & seminars for ...

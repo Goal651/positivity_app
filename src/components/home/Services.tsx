@@ -22,8 +22,8 @@ export default function Services() {
                         >Read more</button>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center">
-                    <div className="flex relative top-10 gap-x-4 border-4 rounded-2xl border-gray-200  px-10 py-4 w-fit bg-white z-10">
+                <div className="flex flex-col items-center justify-center ">
+                    <div className="flex relative top-10 gap-x-4 border-4  custom-shadow-lg rounded-2xl border-gray-200  px-10 py-4 w-fit bg-white z-10">
                         <div className="">
                             <img
                                 src="/communityServices.png"
@@ -36,7 +36,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className="flex gap-x-40">
-                        <div className="flex gap-x-4 border-4 rounded-2xl border-gray-200  px-10 py-4 bg-white w-fit">
+                        <div className="flex gap-x-4 border-4 rounded-2xl  custom-shadow-lg border-gray-200  px-10 py-4 bg-white w-fit">
                             <div className="">
                                 <img
                                     src="/communityServices.png"
@@ -48,7 +48,7 @@ export default function Services() {
                                 "Positivity is contagious and can create ripples of change."
                             </div>
                         </div>
-                        <div className="flex gap-x-4 border-4 rounded-2xl border-gray-200  px-10 py-4 bg-white w-fit">
+                        <div className="flex gap-x-4 border-4 rounded-2xl  custom-shadow-lg border-gray-200  px-10 py-4 bg-white w-fit">
                             <div className="">
                                 <img
                                     src="/communityServices.png"
@@ -61,7 +61,7 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex relative bottom-10 gap-x-4 border-4 rounded-2xl border-gray-200  px-10 py-4 bg-white w-fit z-10">
+                    <div className="flex relative bottom-10 gap-x-4 border-4  custom-shadow-xl rounded-2xl border-gray-200  px-10 py-4 bg-white w-fit z-10">
                         <div className="">
                             <img
                                 src="/communityServices.png"

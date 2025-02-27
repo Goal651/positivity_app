@@ -1,7 +1,7 @@
 export default function DailyTips() {
 
     return (
-        <div className="mt-40 flex items-center justify-center gap-x-20">
+        <div className="mt-40 flex items-center justify-center gap-x-20 shadow-2xl rounded-2xl pb-20">
             <div className="flex items-center justify-center gap-x-8">
                 <div>
                     <img src="/tipImg1.png" alt="" />
@@ -17,7 +17,7 @@ export default function DailyTips() {
 
             </div>
 
-            <div className="flex flex-col gap-y-10 justify-center">
+            <div className="flex flex-col gap-y-10 justify-center ">
                 <div className="text-4xl font-bold text-black">
                     Daily <span style={{ color: '#CD1F01' }}>Positivity</span> Tips
                 </div>
